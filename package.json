@@ -23,6 +23,7 @@
     "discord.js": "^9.3.0",
     "express": "^4.14.0",
     "moment": "^2.15.1",
+    "mongoose": "^4.6.3",
     "performance-now": "^0.2.0"
   },
   "devDependencies": {
