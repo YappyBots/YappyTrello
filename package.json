@@ -22,5 +22,8 @@
     "discord.js": "^9.3.0",
     "moment": "^2.15.1",
     "performance-now": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.0"
   }
 }
