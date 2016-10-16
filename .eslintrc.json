@@ -11,27 +11,12 @@
     "no-extra-parens": ["warn", "all", {
       "nestedBinaryExpressions": false
     }],
-    "valid-jsdoc": ["error", {
-      "requireReturn": false,
-      "requireReturnDescription": false,
-      "preferType": {
-        "String": "string",
-        "Number": "number",
-        "Boolean": "boolean",
-        "Function": "function",
-        "object": "Object",
-        "date": "Date",
-        "error": "Error"
-      },
-      "prefer": {
-        "return": "returns"
-      }
-    }],
+
+    "no-console": "off",
+    "new-cap": "off",
 
     "accessor-pairs": "warn",
-    "array-callback-return": "error",
     "complexity": "warn",
-    "consistent-return": "error",
     "curly": ["error", "multi-line", "consistent"],
     "dot-location": ["error", "property"],
     "dot-notation": "error",
@@ -46,7 +31,6 @@
     "no-new-wrappers": "error",
     "no-new": "error",
     "no-octal-escape": "error",
-    "no-return-assign": "error",
     "no-self-compare": "error",
     "no-sequences": "error",
     "no-throw-literal": "error",
@@ -64,7 +48,6 @@
     "no-shadow": "error",
     "no-undef-init": "error",
 
-    "callback-return": "error",
     "handle-callback-err": "error",
     "no-mixed-requires": "error",
     "no-new-require": "error",
@@ -85,10 +68,9 @@
     "key-spacing": "error",
     "keyword-spacing": "error",
     "max-depth": "error",
-    "max-len": ["error", 120, 2],
+    "max-len": ["error", 200, 2],
     "max-nested-callbacks": ["error", { "max": 4 }],
     "max-statements-per-line": ["error", { "max": 2 }],
-    "new-cap": "error",
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 3 }],
     "no-array-constructor": "error",
     "no-inline-comments": "error",
