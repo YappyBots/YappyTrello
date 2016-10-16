@@ -1,0 +1,26 @@
+{
+  "name": "discordbot-yappy-trello",
+  "version": "1.0.0",
+  "description": "A Trello monitor for Discord!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datitisev/DiscordBot-YappyTrello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datitisev/DiscordBot-YappyTrello/issues"
+  },
+  "homepage": "https://github.com/datitisev/DiscordBot-YappyTrello#readme",
+  "dependencies": {
+    "Webcord": "github:tyler0130/Webcord#dev",
+    "chalk": "^1.1.3",
+    "discord.js": "^9.3.0",
+    "moment": "^2.15.1",
+    "performance-now": "^0.2.0"
+  }
+}
