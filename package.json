@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint lib/**/* --config .eslintrc.json"
+    "lint": "eslint lib/**/* --config .eslintrc.json",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
