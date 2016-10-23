@@ -15,6 +15,6 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "**.jsx"
+  - "**.js"
 exclude_paths:
   - "docs/"
