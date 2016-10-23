@@ -8,9 +8,6 @@
     "node": true
   },
   "rules": {
-    "no-extra-parens": [1, "all", {
-      "nestedBinaryExpressions": false
-    }],
 
     "no-console": "off",
     "new-cap": "off",
