@@ -8,15 +8,15 @@
     "node": true
   },
   "rules": {
-    "no-extra-parens": ["warn", "all", {
+    "no-extra-parens": [1, "all", {
       "nestedBinaryExpressions": false
     }],
 
     "no-console": "off",
     "new-cap": "off",
 
-    "accessor-pairs": "warn",
-    "complexity": "warn",
+    "accessor-pairs": 1,
+    "complexity": 1,
     "curly": ["error", "multi-line", "consistent"],
     "dot-location": ["error", "property"],
     "dot-notation": "error",
@@ -40,7 +40,7 @@
     "no-useless-concat": "error",
     "no-useless-escape": "error",
     "no-void": "error",
-    "no-warning-comments": "warn",
+    "no-warning-comments": 1,
     "wrap-iife": "error",
     "yoda": "error",
 
