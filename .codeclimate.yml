@@ -9,10 +9,8 @@ engines:
       - javascript
   eslint:
     enabled: true
+    channel: "eslint-3"
 
-    checks:
-      global-require:
-        enabled: false
   fixme:
     enabled: true
 ratings:
