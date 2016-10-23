@@ -1,0 +1,22 @@
+---
+engines:
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  eslint:
+    enabled: true
+
+    checks:
+      global-require:
+        enabled: false
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - "**.jsx"
+exclude_paths:
+  - "docs/"
