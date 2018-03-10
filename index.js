@@ -1,3 +1,4 @@
+const config = require("./lib/config");
 const Log = require("./lib/Util/Log");
 
 let Web = require("./lib/Web");
@@ -7,4 +8,4 @@ require("./lib/Models");
 process.on("unhandledRejection", Log.error);
 process.on("uncaughtException", Log.error);
 
-if (process.env.WEB_STANDALONE) module.exports = Web;
+if (config.webStandalone) module.exports = Web;

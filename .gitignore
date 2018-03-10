@@ -1,6 +1,7 @@
 ## == PERSONAL IGNORES ==
 
 config.json
+.env
 
 ## == NODE IGNORES ==
 
